@@ -12,3 +12,18 @@ The file that contains the original and whole Binarian transmission is jumbled. 
 > Lines that start with ‘+’ contain astrophysical data about the Binarian planet, 
 > Lines that start with ‘#’ contain metadata, 
 > All other lines form the whole Binarian message when pieced together
+
+Our first mission is to extract the whole message text from the file binarian_transmission.txt (only the message, not any other included data!) and translate it word-for-word and line-by-line into English using the Binarian-English Dictionary. If a word is not in the dictionary, it should stay as it is (do not omit the word in your translation!). You should both output your translation to the console and store it in a file named binarian_message.txt
+
+# Mission: Data Extraction and Calculations
+Binarians don’t use decimal number system like us; they use binary numbers. We need to uncover all numerical data about their home-planet hidden in their transmission (hint: remember that lines holding the astrophysical data about Binarian planet start with a ‘+’ sign).  
+Our second mission involves extracting numerical data from their transmission and presenting it in a human-readable form. Since the numbers will be binary, we need to convert them into numbers in base ten. For this part of the mission, complete the function binary_to_decimal() in the template file, which we will use for the number base conversion. 
+We are supposed to find the distance of their planet from the earth in light-years, temperature of their planet, and its orbital-speed. One extra task for you to do is to convert the obtained distance in light-years to kilometers. We do not need to convert orbital-speed and temperature values as they are already given in km/s and degrees Celsius respectively. For this part of the mission, complete the function ly_to_km() in the template file, which we will use for converting light-years to kilometers. 
+> Note: We both output our results to the console and store them in a file named computations.txt. 
+# Mission: Translate a Message for Peace to Binarian Language
+Our last mission is to translate a message of peace into Binarian language, which will then be transmitted in hope that it will be enough to prove that we are indeed an intelligent and peaceful race, and that we do not deserve to be obliterated from this planet.  
+The message to be translated is given in the text file named peace_message.txt. 
+<br>
+For this part of the mission, complete the functions english_to_binarian() and decimal_to_binary() in the template file. decimal_to_binary() function will convert a number in base ten to a binary number. 
+Our program output the translated message, line by line (not as a single string!), both to the console and into the text file named message.txt.  
+ 
