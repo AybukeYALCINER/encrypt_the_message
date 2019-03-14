@@ -9,6 +9,6 @@ The original Binarian message consists of characters and symbols unknown to huma
 Each line consists of a word in Binarian followed by its English meaning, and the type of the word in parentheses (n stands for noun, v for verb, adj for adjective, pro for pronoun, conj for conjunction, num for numbers, adv for adverbials, excl for exclamation, ques for question). 
 
 The file that contains the original and whole Binarian transmission is jumbled. Some lines contain the actual text of their message, whereas other lines that start with certain characters contain data about Binarian race and their home-world: 
-| Lines that start with ‘+’ contain astrophysical data about the Binarian planet, 
-| Lines that start with ‘#’ contain metadata, 
-| All other lines form the whole Binarian message when pieced together
+> Lines that start with ‘+’ contain astrophysical data about the Binarian planet, 
+> Lines that start with ‘#’ contain metadata, 
+> All other lines form the whole Binarian message when pieced together
