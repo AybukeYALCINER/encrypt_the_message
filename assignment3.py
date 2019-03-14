@@ -1,7 +1,5 @@
 #--------------------------
-#Student Name:Aybüke YALÇINER.
-#BBM103 Introduction to Programming Laboratory I,Fall 2016
-#Assignment3 :Mission: Save the Earth
+#Name:Aybüke YALÇINER.
 #--------------------------
 import sys
 
